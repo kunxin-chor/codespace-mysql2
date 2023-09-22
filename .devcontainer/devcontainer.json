@@ -1,6 +1,6 @@
 {
     "name": "My Custom Dev Container",
-    "dockerFile": "Dockerfile",
+    "dockerFile": "../Dockerfile",
     "forwardPorts": [3306],
     "postCreateCommand": "service mysql start",
     "settings": {
