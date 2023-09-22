@@ -1,0 +1,9 @@
+{
+    "name": "My Custom Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [3306],
+    "postCreateCommand": "service mysql start",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
